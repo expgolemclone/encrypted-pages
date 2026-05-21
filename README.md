@@ -1,1 +1,1 @@
-https://expgolemclone.github.io/resume-pages/
+https://expgolemclone.github.io/encrypted-pages/
