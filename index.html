@@ -173,6 +173,7 @@
 
       form.addEventListener("submit", async (event) => {
         event.preventDefault();
+        const password = passwordInput.value.trim();
         status.classList.remove("error");
         status.textContent = "Opening...";
         submitButton.disabled = true;
@@ -183,7 +184,7 @@
             throw new Error("payload.json could not be loaded.");
           }
           const payload = await response.json();
-          const html = await decryptPayload(payload, passwordInput.value);
+          const html = await decryptPayload(payload, password);
           document.open();
           document.write(html);
           document.close();
