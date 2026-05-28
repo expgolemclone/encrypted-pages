@@ -1,1 +1,1 @@
-https://expgolemclone.github.io/encrypted-pages-flash/
+https://expgolemclone.github.io/encrypted-pages/
